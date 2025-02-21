@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Gilroy";
+    src: local("Gilroy"),
+     url("../../fonts/Gilroy-Light.otf") format("opentype");
+    font-weight: normal;
+    }
+
+.header {
+    width: 100%;
+    height: 86px;
+    display: flex;
+    padding-right: 20px;
+    justify-content: space-between;
+    background: var(--Color-white, rgba(255, 255, 255, 1));
+}
+
+.logo {
+    width: 125px;
+    height: 29px;
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-top: 28px;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.63px;
+    letter-spacing: 3%;
+    color: var(--Color-black, rgba(53, 55, 58, 1));
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 746px;
+    height: 19px;
+}
+
+.navItem {
+    margin-top: 33.5px;
+    max-width: 126px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.navItem:hover {
+    color: var(--Color-main, rgba(66, 158, 255, 1));
+}
+
+.userProfile {
+    display: flex;
+    align-items: center;
+    width: 184px;
+    height: 66px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 164px;
+    height: 46px;
+    align-items: center;
+}
+
+.userName {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 2%;
+    color: var(--Color-black, rgba(53, 55, 58, 1));
+}

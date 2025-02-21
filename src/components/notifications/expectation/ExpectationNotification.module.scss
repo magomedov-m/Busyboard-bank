@@ -1,0 +1,58 @@
+.notification {
+    display: flex;
+    position: absolute;
+    font-family: Inter;
+    z-index: 4;
+    margin-top: 200px;
+    margin-left: 40%;
+    width: 340px;
+    height: 106px;
+    border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.452);
+    background-color: rgb(255, 255, 255);
+}
+
+.timerIcon {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+.closeIcon {
+    width: 24px;
+    height: 24px;
+    fill: var(--Color-gray, rgba(132, 150, 175, 1));
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    border-radius: 8px 0px 0 8px;
+    width: 64px;
+    height: 106px;
+    gap: 10px;
+    padding: 20px;
+    background: var(--Color-gray, rgba(132, 150, 175, 1));
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.content p {
+    display: flex;
+    justify-content: space-between;
+    width: 236px;
+}
+
+.expectationTitle {
+    font-family: Inter;
+    font-size: 16px;
+}
+.expectationMessage {
+    font-family: Inter;
+    font-size: 14px;
+}

@@ -1,0 +1,133 @@
+.entriesHeader {
+    display: flex;
+    width: 1840px;
+    height: 60px;
+}
+
+.date {
+    display: flex;
+    margin-right: 40px;
+    width: 115px;
+    height: 60px;
+    gap: 10px;
+    padding: 10px 10px 10px 12px;
+}
+.date p {
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2%;
+    text-align: right;
+    color: var(--Color-gray, rgba(132, 150, 175, 1));
+}
+
+.coming {
+    width: 140px;
+    height: 60px;
+    margin-right: 40px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.coming p {
+    margin-left: 69px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2%;
+    color: var(--Color-gray, rgba(132, 150, 175, 1));
+}
+
+.expenditure {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    width: 140px;
+    height: 60px;
+    padding: 10px;
+    color: var(--Color-gray, rgba(132, 150, 175, 1));
+}
+.expenditure p {
+    margin-left: 71px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2%;
+}
+
+.bank {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    width: 140px;
+    height: 60px;
+    padding: 10px;
+    gap: 10px;
+    color: var(--Color-gray, rgba(132, 150, 175, 1));
+}
+.bankContainer {
+    display: flex;
+    margin-left: 50px;
+    gap: 10px;
+}
+
+.counterparty {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    width: 300px;
+    height: 60px;
+    padding: 10px 10px 10px 0;
+    gap: 10px;
+}
+.counterparty p {
+    margin-left: 10px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 2%;
+    text-align: right;
+    color: var(--Color-gray, rgba(132, 150, 175, 1));
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    width: 300px;
+    height: 60px;
+    padding: 10px 10px 10px 0;
+    gap: 10px;
+}
+.article p {
+    margin-left: 10px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 2%;
+    text-align: right;
+    color: var(--Color-gray, rgba(132, 150, 175, 1));
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    width: 365px;
+    height: 60px;
+    padding: 10px;
+    gap: 10px;
+}
+.description p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 2%;
+    text-align: right;
+    color: var(--Color-gray, rgba(132, 150, 175, 1));
+
+}

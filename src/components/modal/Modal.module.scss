@@ -1,0 +1,170 @@
+.modal {
+    position: absolute;
+    font-family: Inter;
+    z-index: 3;
+    background: var(--Color-gray-light, rgb(239, 239, 240));
+    width: 870px;
+    height: 447px;
+    margin-top: -200px;
+    margin-left: 450px;
+    border-radius: 8px;
+    padding: 40px;
+    gap: 30px;
+    box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.356);
+}
+
+.paymentDetails {
+    width: 790px;
+    height: 29px;
+    gap: 20px;
+    margin-bottom: 30px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 2%;
+    color: var(--Color-black, rgba(53, 55, 58, 1));
+}
+
+.financialOperationInfo {
+    width: 790px;
+    height: 232px;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.billingInfo {
+    display: flex;
+    width: 790px;
+    height: 46px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.totalAmount {
+    display: flex;
+    align-items: center; 
+    width: 257px;
+    height: 46px;
+    gap: 10px;
+}
+.totalAmount p {
+    width: 100px;
+    height: 34px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 2%;
+    color: var(--Color-black, rgba(53, 55, 58, 1));
+}
+.input {
+    width: 157px;
+    height: 46px;
+    gap: 10px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 13px 20px;
+    color: red;
+    border: 1px solid var(--Color-gray-light, rgba(220, 231, 241, 1));
+}
+
+.spread {
+    display: flex;
+    align-items: center;
+    width: 226px;
+    height: 46px;
+    gap: 10px;
+}
+.spread p {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 2%;
+}
+
+.typeOperation {
+    display: flex;
+    margin-bottom: 20px;
+    width: 790px;
+    height: 73px;
+    gap: 20px;
+}
+.typeOperation p {
+    margin-bottom: 10px;
+}
+
+.inputSumm {
+    width: 250px;
+    height: 46px;
+    justify-content: space-between;
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 13px 20px;
+    border: 1px solid var(--Color-gray-light, rgba(220, 231, 241, 1))
+}
+.inputType {
+    width: 250;
+    height: 46;
+    min-width: 150px;
+    gap: 14px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 13px 20px;
+    border: 1px solid var(--Color-gray-light, rgba(220, 231, 241, 1))
+}
+
+.paymentInfo {
+    display: flex;
+    width: 790px;
+    height: 73px;
+    gap: 20px;
+}
+.paymentInfo p {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 46px;
+    gap: 20px;
+
+}
+
+.safeBtn {
+    width: 140;
+    height: 46;
+    min-width: 140px;
+    gap: 14px;
+    border-radius: 8px;
+    padding: 13px 20px;
+    background: var(--Color-main, rgba(66, 158, 255, 1));
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 2%;
+    text-align: center;
+}
+.cancel {
+    width: 140;
+    height: 46;
+    min-width: 140px;
+    gap: 14px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding-top: 13px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    background: var(--Color-white, rgba(255, 255, 255, 1));
+    border: 1px solid var(--Color-gray-light, rgba(220, 231, 241, 1))
+}
+
+.closeBtn {
+    margin-left: 98%;
+}

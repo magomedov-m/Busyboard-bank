@@ -1,0 +1,45 @@
+.negativeNotification {
+    display: flex;
+    width: 340px;
+    height: 106px;
+    top: 908px;
+    left: -891px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+.warning {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+.close {
+    width: 24px;
+    height: 24px;
+    color: var(--Color-gray, rgba(132, 150, 175, 1));
+}
+
+.iconBlock {
+    display: flex;
+    align-items: center;
+    border-radius: 8px 0px 0 8px;
+    width: 64px;
+    height: 106px;
+    gap: 10px;
+    padding: 20px;
+    background: var(--Color-red, rgba(255, 94, 91, 1));
+}
+
+.saveChanged {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.saveChanged p {
+    display: flex;
+    justify-content: space-between;
+    width: 236px;
+}

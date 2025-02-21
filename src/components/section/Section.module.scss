@@ -1,0 +1,62 @@
+.section {
+    position: relative;
+    width: 1880px;
+    height: 891px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border-width: 0.5px;
+    padding: 20px;
+    background: var(--Color-white, rgba(255, 255, 255, 1));
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: space-between;
+    width: 1840px;
+    height: 46px;
+}
+
+.yearButton {
+    margin-right: 20px;
+}
+
+.buttonsInfo {
+    width: 381px;
+    height: 44px;
+    border-radius: 8px;
+    border-width: 1px;
+    gap: 5px;
+    border: 1px green solid
+}
+
+.leftButtonGroup {
+    display: flex;
+    justify-content: space-between;
+    width: 551px;
+}
+
+.rightButtonGroup {
+    display: flex;
+    justify-content: space-between;
+    width: 338px;
+    height: 46px;
+    gap: 20px;
+}
+
+.downloadButton {
+    width: 178px;
+    height: 46px;
+    min-width: 140px;
+    border-radius: 8px;
+    gap: 14px;
+    padding: 5px 20px;
+    background: var(--Color-blue-light, rgba(234, 245, 255, 1));
+    color: var(--Color-main, rgba(66, 158, 255, 1));
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 2%;
+    text-align: center;
+}
